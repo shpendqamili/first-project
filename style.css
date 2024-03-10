@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(./Images/Banner.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.cards:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.05);
+ color: #318CE7;
+}
+.text{
+    border-left: 5px solid #318CE7;
+}
+.card-1:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.05);
+ color: #318CE7;
+ cursor: pointer;
+}
+.days:hover{
+    color: #318CE7;
+}
+@media only screen and (max-width: 600px) {
+    .banner img {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .cards {
+        display: block;
+    }
+  }
+ #days, 
+#hours,
+#minutes,
+#seconds {
+    font-size: 60px;
+    color: blue;
+}
+.background{
+    
+    background-color: #8cbdee;
+    border-radius: 5px;
+}
